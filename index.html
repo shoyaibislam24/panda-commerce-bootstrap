@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt=""  >
@@ -24,13 +24,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
              
               
@@ -134,7 +134,7 @@
   </section>
   <!-- categories End -->
 <!-- Shoes section start -->
-<section class="container my-5">
+<section class="container my-5" id="shoes">
   <h2>Shoes</h2>
   <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
     <div class="col">
@@ -178,7 +178,7 @@
 <!-- Shoes section End -->
 
 <!-- Backpack section Start -->
-<div class="container my-5">
+<div class="container my-5" id="backpack">
   <h2>Backpack</h2>
   <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
     <div class="col">
@@ -225,8 +225,30 @@
 </div>
 
 <!-- Backpack section end -->
+<!-- subscribe start -->
+<section style="height:300px;" class="container rounded-3 d-flex justify-content-center align-items-center bg-info" id="subscribe">
+ 
+ <div>
+  <h2>LET'S STAY IN TOUCH</h2>
+  <p>Get updates on sales, specials and more</p>
+  <form>
+    <div class="mb-1">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+     </div>
+  
+      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+ </div>
+</section>
+<!-- subscribe end -->
 
 </main>
+
+<footer class="mt-5 text-center">
+  <p><small>©2022.Shoyaib it club. All rights reserved. rangpur, Bangladesh.</small></p>
+</footer>
 
 
     <script src="bootstrap/bootstrap.min.js"></script>
